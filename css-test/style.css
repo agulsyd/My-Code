@@ -1,0 +1,43 @@
+.center{    
+        text-align: center;
+}
+
+.red{  
+    color: red;
+ }
+
+ .blue{
+     color: blue;
+ }
+
+ .green{
+     color:green
+ }
+
+ .big{
+     font-size: x-large;
+ }
+
+ .tiny{
+     font-size:x-small
+ }
+
+ .bold{
+     font-weight:bold;
+ }
+
+ .font{
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ }
+
+ .mixed{ 
+        font-size: x-small; color: indigo; text-align: right;
+    }
+
+.styledFont{
+            font-style: italic;
+}
+
+#styledImage{
+    border-width: 2cm; border-style: double; color: khaki;
+}
