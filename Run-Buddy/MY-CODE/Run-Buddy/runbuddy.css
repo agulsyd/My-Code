@@ -1,0 +1,13 @@
+header a {
+    text-decoration: none;
+    color: hsl(52, 97%, 60%);
+  }
+  
+ header nav {
+      float:right;
+      margin: 7px 0;
+  }
+
+  header nav ul li {
+    display: inline;
+  }
