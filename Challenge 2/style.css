@@ -1,0 +1,137 @@
+/*Universal Styles*/
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+/*Header Style*/
+header{
+    background-color:rgb(0, 0, 0) ;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+header a{
+    text-decoration: none;
+    font-weight:700;
+    font-size: 70px;
+    color: rgb(139, 196, 250);
+}
+header nav{
+    margin: 10px 0px;
+    padding: 10px 40px;
+    text-align: center;
+}
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+header nav ul li a{
+    margin: 20px;
+    color: rgb(139, 196, 250);
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 25px;
+}
+/* Subtitle and Attractive Banner*/
+.banner {
+    height: 250px;
+    background-size: contain;
+    background-position: right;
+    background-image: url(./hero-background.png);
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+.banner h2{
+    color: white;
+    font-size: 70px;
+    padding: 100px;
+}
+/*About me Section*/
+
+.about-me1{
+    text-align: right;
+    background-color: black;
+    display: flex;
+}
+
+.about-me1 h2{
+    font-size: 55px;
+    color:rgb(139, 196, 250);
+    margin: 10px;
+    padding: 20px 100px 20px 100px;
+    border-right: 3px solid;
+    border-color: #3886fc;
+}
+
+.about-me1 p{
+    color: rgb(139, 196, 250);
+    padding: 10px 50px 20px 50px;
+    text-align: justify;
+    margin: 30px;
+    font-size: 20px;
+}
+
+/*Work Section*/
+
+.Workk{
+    text-align: right;
+    background-color: black;
+    display: flex;
+}
+
+.Workk h2{
+    font-size: 55px;
+    color:rgb(139, 196, 250);
+    margin: 10px;
+    padding: 20px 112px 20px 100px;
+    border-right: 3px solid;
+    border-color: #3886fc;
+}
+
+.Workk p{
+    color: rgb(139, 196, 250);
+    padding: 10px 50px 20px 50px;
+    text-align: justify;
+    margin: 30px;
+    font-size: 20px;
+}
+
+/*Footer*/
+footer{
+    background-color:rgb(0, 0, 0) ;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+footer h2{
+    text-decoration: none;
+    font-weight:700;
+    font-size: 40px;
+    color: rgb(139, 196, 250);
+}
+
+footer ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+footer ul li {
+    margin: 20px;
+    text-decoration: none;
+    color: rgb(139, 196, 250);
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+

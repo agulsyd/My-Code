@@ -5,6 +5,9 @@ header a {
 
   header{
           background-color:thistle;
+          display: flex;
+          justify-content: space-between;
+          flex-wrap: wrap;
   }
 
   body{
@@ -13,25 +16,27 @@ header a {
         font-size: small;
   }
  header nav {
-      float:right;
       margin: 7px 0;
   }
 
-  header nav ul li {
-    display: inline;
+  header nav ul  {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
   }
 
   header nav ul li a {
     margin: 0 30px;
-    font-weight: bold;
-    font-size: 22px;
+    font-weight: lighter;
+    font-size: 1.55vw;
   }
   header h1 {
     font-weight: bold;
+    margin: 0;
     font-size: 36px;
     color: #fce138;
-    margin: 0;
-    display: inline;
   }
 
   * {
@@ -43,10 +48,12 @@ header a {
     background: #fce138;
     width: 100%;
     padding: 40px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
   }
 
   footer h2 {
-    display: inline;
     color: #024e76;
     font-size: 30px;
     margin: 0;
@@ -72,7 +79,9 @@ header a {
     padding: 60px;
   }
 
-  .hero1 {
+  .hero1 {display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
       background-image: url(https://static.fullstack-bootcamp.com/module-1/hero-bg.jpg);
       height:600px;
       background-size: cover;
@@ -83,12 +92,9 @@ header a {
               color:#024e76 ;
               background-color:#fce138 ;
               padding: 20px;
-              width: 500px;
               margin: 8px 70px 15px 40px;
               border: solid 3px #024e76;
-              position: absolute;
-              bottom: 120px;
-              right: 140px;
+              
 
 
   }
@@ -123,5 +129,30 @@ header a {
  border: none ;
  font-size: 16px;
 
+  }
+
+  .intro{
+          text-align: center;
+  }
+
+  .intro h2 {
+    font-size: 55px;
+    color: #024e76;
+    margin-bottom: 35px;
+    padding: 0 100px 20px 100px;
+    border-bottom: 3px solid;
+    border-color: #fce138;
+    display: inline-block;
+  }
+  .intro p {
+    line-height: 1.7;
+    color: #39a6b2;
+    width: 80%;
+    font-size: 20px;
+    margin: 0 auto;
+  }
+
+  .contact-info{
+                
   }
   
