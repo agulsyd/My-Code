@@ -42,7 +42,7 @@ header nav ul li a{
     height: 250px;
     background-size: contain;
     background-position: right;
-    background-image: url(./hero-background.png);
+    background-image: url(../Images/hero-background.png);
     display: flex;
     justify-content: flex-end;
     flex-wrap: wrap;
@@ -77,12 +77,13 @@ header nav ul li a{
     font-size: 20px;
 }
 
-/*Work Section*/
+/*Work Section and images display*/
 
 .Workk{
     text-align: right;
     background-color: black;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .Workk h2{
@@ -94,12 +95,14 @@ header nav ul li a{
     border-color: #3886fc;
 }
 
-.Workk p{
-    color: rgb(139, 196, 250);
-    padding: 10px 50px 20px 50px;
-    text-align: justify;
-    margin: 30px;
-    font-size: 20px;
+.img{
+    margin: 20px 50px;
+    padding: 10px 20px 10px 20px;
+}
+
+.img2{
+    margin: 70px 500px;
+    padding: 0px 50px 100px;
 }
 
 /*Footer*/
